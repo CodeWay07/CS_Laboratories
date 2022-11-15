@@ -52,7 +52,6 @@ def encrypt(text, key):
 &ensp;&ensp;&ensp; Same as encryption. Only difference is that we perform a backwards operation in newLetterindex.
 
 ```
-#ascii collection
     alphaCollection = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789,.'?!@#$%^&*()~ "
     new_key = key
     i = 0
