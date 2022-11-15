@@ -21,3 +21,5 @@
 1. [Laboratory Work 1](https://github.com/CodeWay07/CS_Laboratories/tree/main/Lab_1)
 
 2. [Laboratory Work 3](https://github.com/CodeWay07/CS_Laboratories/tree/main/Lab_3)
+
+3. [Laboratory Work 4](https://github.com/CodeWay07/CS_Laboratories/tree/main/Lab_4)
