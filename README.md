@@ -15,13 +15,3 @@
 &ensp;&ensp;&ensp; Cryptography is closely related to the disciplines of cryptology and cryptanalysis. It includes techniques such as microdots, merging words with images and other ways to hide information in storage or transit.
 
 &ensp;&ensp;&ensp; However, in today's computer-centric world, cryptography is most often associated with scrambling plaintext (ordinary text, sometimes referred to as cleartext) into ciphertext (a process called encryption), then back again (known as decryption). Individuals who practice this field are known as cryptographers.
-
-## Implementations
-
-1. [Laboratory Work 1](https://github.com/CodeWay07/CS_Laboratories/tree/main/Lab_1)
-
-2. [Laboratory Work 2](https://github.com/CodeWay07/CS_Laboratories/tree/main/Lab_2)
-
-3. [Laboratory Work 3](https://github.com/CodeWay07/CS_Laboratories/tree/main/Lab_3)
-
-4. [Laboratory Work 4](https://github.com/CodeWay07/CS_Laboratories/tree/main/Lab_4)
