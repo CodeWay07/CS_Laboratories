@@ -28,4 +28,4 @@
 
 ## Implementations
 
-1. [RSA Cipher](https://github.com/CodeWay07/CS_Laboratories/blob/main/Lab_3/RSA.md)
+1. [RSA Cipher](https://github.com/CodeWay07/CS_Laboratories/blob/main/Reports/RSA.md)

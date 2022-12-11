@@ -25,7 +25,7 @@
 
 ## Implementations
 
-1. [Caesar Substitution Cipher](https://github.com/CodeWay07/CS_Laboratories/blob/main/Lab_1/Caesar%20Substitution/Caesar_Substitution.md)
-2. [Caesar Permutation Cipher](https://github.com/CodeWay07/CS_Laboratories/blob/main/Lab_1/Caesar%20Permutation/Caesar_Permutation.md)
-3. [Vigenere Cipher](https://github.com/CodeWay07/CS_Laboratories/blob/main/Lab_1/Vigenere/Vigenere.md)
-4. [Playfair Cipher](https://github.com/CodeWay07/CS_Laboratories/blob/main/Lab_1/Playfair/Playfair.md)
+1. [Caesar Substitution Cipher](https://github.com/CodeWay07/CS_Laboratories/blob/main/Reports/Caesar_Substitution.md)
+2. [Caesar Permutation Cipher](https://github.com/CodeWay07/CS_Laboratories/blob/main/Reports/Caesar_Permutation.md)
+3. [Vigenere Cipher](https://github.com/CodeWay07/CS_Laboratories/blob/main/Reports/Vigenere.md)
+4. [Playfair Cipher](https://github.com/CodeWay07/CS_Laboratories/blob/main/Reports/Playfair.md)

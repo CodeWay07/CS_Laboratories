@@ -37,4 +37,4 @@
 
 ## Implementations
 
-1. [SHA256 Hash Function](https://github.com/CodeWay07/CS_Laboratories/blob/main/Lab_4/sha256.png)
+1. [SHA256 Hash Function](https://github.com/CodeWay07/CS_Laboratories/blob/main/Resources/sha256.png)

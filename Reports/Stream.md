@@ -67,4 +67,4 @@ def encrypt(text, key):
 
 ## Screenshots
 
-![](https://github.com/CodeWay07/CS_Laboratories/blob/main/Lab_2/stream.png)
+![](https://github.com/CodeWay07/CS_Laboratories/blob/main/Resources/stream.png)

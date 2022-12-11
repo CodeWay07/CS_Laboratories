@@ -32,5 +32,5 @@
 
 ## Implementations
 
-1. [Block Cipher](https://github.com/CodeWay07/CS_Laboratories/blob/main/Lab_2/Block.md)
-2. [Stream Cipher](https://github.com/CodeWay07/CS_Laboratories/blob/main/Lab_2/Stream.md)
+1. [Block Cipher](https://github.com/CodeWay07/CS_Laboratories/blob/main/Reports/Block.md)
+2. [Stream Cipher](https://github.com/CodeWay07/CS_Laboratories/blob/main/Reports/Stream.md)

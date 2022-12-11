@@ -133,4 +133,4 @@ def decrypt (self, data):
 
 ## Screenshots
 
-![](https://github.com/CodeWay07/CS_Laboratories/blob/main/Lab_2/block.png)
+![](https://github.com/CodeWay07/CS_Laboratories/blob/main/Resources/block.png)
