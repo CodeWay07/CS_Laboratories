@@ -1,13 +1,10 @@
 import random
-from Ciphers.cipher import Cipher
 from math import gcd
 from math import sqrt
-
 from sympy import isprime
 
 p = int(random.randrange(1, 10000))
 q = int(random.randrange(1, 10000))
-
 while not isprime(p):
     p = int(random.randrange(1, 10000))
 while not isprime(q):
@@ -31,7 +28,6 @@ def generate_key_pair(p, q):
     d = multiplicative_inverse(e, phi)
 
     return ((e, n), (d, n))
-
 def multiplicative_inverse(e, phi):
     d = 0
     x1 = 0
@@ -55,12 +51,10 @@ def multiplicative_inverse(e, phi):
 
     if temp_phi == 1:
         return d + phi
-
 def encrypt(pk, plaintext):
     key, n = pk
     cipher = [pow(ord(char), key, n) for char in plaintext]
     return cipher
-
 
 def decrypt(pk, ciphertext):
     key, n = pk

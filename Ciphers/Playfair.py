@@ -1,7 +1,6 @@
 import string
 import itertools
 
-
 def chunker(seq, size):
     it = iter(seq)
     while True:
@@ -38,7 +37,6 @@ def generate_table(key):
     for char in key.upper():
         if char not in table and char in alphabet:
             table.append(char)
-
     for char in alphabet:
         if char not in table:
             table.append(char)
@@ -63,7 +61,6 @@ def encrypt(message, key):
         else: 
             cipher += table[row1*5+col2]
             cipher += table[row2*5+col1]
-    
     return cipher
 
 
@@ -76,29 +73,11 @@ def decrypt(cipher, key):
         row2, col2 = divmod(table.index(char2), 5)
         if row1 == row2:
             decrypted += table[row1*5+(col1-1)%5]
-            decrypted += table[row2*5+(col2-1)%5]
+            decrypted += table[row2*5+(col2-1)%5] 
         elif col1 == col2:
             decrypted += table[((row1-1)%5)*5+col1]
             decrypted += table[((row2-1)%5)*5+col2]
         else: 
             decrypted += table[row1*5+col2]
             decrypted += table[row2*5+col1]
-
     return decrypted
-
-
-def main():
-    message = input('Enter text to be encrypted: ')
-    key = input('Enter your key: ')
-
-    cipher = encrypt(message, key)
-    decrypted = decrypt(cipher, key)
-    
-    print("Your message: " + message)
-
-    print("Encrypted message: " + cipher)
-
-    print("Decrypted message: " + decrypted)
-
-
-main()

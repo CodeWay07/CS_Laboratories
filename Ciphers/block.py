@@ -1,7 +1,4 @@
-from Ciphers.cipher import Cipher
-
 class blowfish:
-
     ENCRYPT = 0
     DECRYPT = 1
 
@@ -344,7 +341,6 @@ class blowfish:
         return f
 
     def encrypt (self, data):
-
         if not len (data) == 8:
             print("Encrypt block length is larger or smaller then the correct length of 8. Length: %s" %len (data))
             return ""
@@ -360,7 +356,6 @@ class blowfish:
         return chars
 
     def decrypt (self, data):
-
         if not len (data) == 8:
             print("Decrypt block length is larger or smaller then the correct length of 8. Length: %s" %len (data))
             return ""

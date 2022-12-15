@@ -8,7 +8,6 @@ def ror(val, r_bits, max_bits):
 
 def sha256_sum(message):
     MOD32 = 2**32
-    
     h0 = 0x6A09E667
     h1 = 0xBB67AE85
     h2 = 0x3C6EF372
@@ -51,7 +50,7 @@ def sha256_sum(message):
         f = h5
         g = h6
         h = h7
-
+        
         for i in range(64):
             S0 = ror(a,2,32) ^ ror(a,13,32) ^ ror(a,22,32)
             S1 = ror(e,6,32) ^ ror(e,11,32) ^ ror(e,25,32)
@@ -67,7 +66,7 @@ def sha256_sum(message):
             c = b
             b = a
             a = (t1 + t2) % MOD32
-
+            
         h0 = (h0 + a) % MOD32
         h1 = (h1 + b) % MOD32
         h2 = (h2 + c) % MOD32

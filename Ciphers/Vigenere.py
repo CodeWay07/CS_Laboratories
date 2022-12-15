@@ -1,3 +1,7 @@
+alphabet = "abcdefghijklmnopqrstuvwxyz "
+letter_to_index = dict(zip(alphabet, range(len(alphabet))))
+index_to_letter = dict(zip(range(len(alphabet)), alphabet))
+
 
 def encrypt(message, key, alphabet, letter_to_index, index_to_letter):
     encrypted = ""
@@ -10,7 +14,6 @@ def encrypt(message, key, alphabet, letter_to_index, index_to_letter):
             number = (letter_to_index[letter] + letter_to_index[key[i]]) % len(alphabet)
             encrypted += index_to_letter[number]
             i += 1
-
     return encrypted
 
 
@@ -26,26 +29,4 @@ def decrypt(cipher, key, alphabet, letter_to_index, index_to_letter):
             number = (letter_to_index[letter] - letter_to_index[key[i]]) % len(alphabet)
             decrypted += index_to_letter[number]
             i += 1
-
     return decrypted
-
-
-def main():
-    message = input('Enter text to be encrypted: ').lower()
-    key = input('Enter your key:')
-
-    alphabet = "abcdefghijklmnopqrstuvwxyz "
-    letter_to_index = dict(zip(alphabet, range(len(alphabet))))
-    index_to_letter = dict(zip(range(len(alphabet)), alphabet))
-
-    cipher = encrypt(message, key, alphabet, letter_to_index, index_to_letter)
-    decrypted = decrypt(cipher, key, alphabet, letter_to_index, index_to_letter)
-
-    print("Your message: " + message)
-
-    print("Encrypted message: " + cipher)
-
-    print("Decrypted message: " + decrypted)
-
-
-main()
