@@ -22,3 +22,4 @@
 2. [Laboratory Work 2](https://github.com/CodeWay07/CS_Laboratories/blob/main/Reports/Report_Lab2.md)
 3. [Laboratory Work 3](https://github.com/CodeWay07/CS_Laboratories/blob/main/Reports/Report_Lab3.md)
 4. [Laboratory Work 4](https://github.com/CodeWay07/CS_Laboratories/blob/main/Reports/Report_Lab4.md)
+5. [Laboratory Work 5](https://github.com/CodeWay07/CS_Laboratories/blob/main/Reports/Report_Lab5.md)
